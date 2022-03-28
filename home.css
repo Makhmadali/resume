@@ -63,7 +63,6 @@ header .container{
     align-items: center;
 }
 .header-left{
-    transition-timing-function: 10s;
     width: 37%;
 }
 .header-right{
