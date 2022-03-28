@@ -183,11 +183,6 @@ align-items: center;
 .box{
     margin: 50px 0px;
 }
-.box .container{
-    background: #E9E9E9;
-    border-radius: 45px;
-    padding: 60px;
-}
 .box-left{
     width: 40%;
 }
@@ -197,7 +192,7 @@ align-items: center;
 .box-avatar{
     width: 100%;
 }
-.box .container, .box-list{
+ .box-list{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -388,7 +383,9 @@ color: #FFFFFF;
 }
 /* ------------footer---------- */
 .footer{
+    width: 100%;
     background: #ebe8e8;
+    padding: 0px;
 }
 .footer .container, .footer-list{
     display: flex;
@@ -403,19 +400,79 @@ color: #FFFFFF;
 }
 .footer-link{
     font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 46px;
-display: flex;
-align-items: center;
-color: #2F2F2F;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    color: #2F2F2F;
 }
 .footer-title{
     font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 36px;
-display: inline-block;
-color: #2F2F2F;
-margin-right: 10px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: inline-block;
+    color: #2F2F2F;
+    margin-right: 10px;
 }
+/* -----------------------*----------------------- */
+nav, header, .box, .middle, .section, .work, .logos,.footer{
+        padding: 25px;
+}
+ 
+.box-blok{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E9E9E9;
+    border-radius: 45px;
+    padding: 60px;
+}
+/* --------------media----------------- */
+@media(max-width:1160){
+    .container{
+        width: 1000px;
+    }
+}
+@media(max-width:1020){
+    .container{
+        width: 900px;
+    }
+}
+@media(max-width:920){
+    .container{
+        width: 800px;
+    }
+}
+@media(max-width:820){
+    .container{
+        width: 700px;
+    }
+}
+@media(max-width:720){
+    .container{
+        width: 600px;
+    }
+}
+@media(max-width:620){
+    .container{
+        width: 500px;
+    }
+}
+@media(max-width:520){
+    .container{
+        width: 400px;
+    }
+}
+@media(max-width:420){
+    .container{
+        width: 300px;
+    }
+}
+@media(max-width:320){
+    .container{
+        width: 200px;
+    }
+}
+

@@ -192,3 +192,53 @@ display: inline-block;
 color: #2F2F2F;
 margin-right: 10px;
 }
+
+
+
+
+/* --------------media----------------- */
+@media(max-width:1160){
+    .container{
+        width: 1000px;
+    }
+}
+@media(max-width:1020){
+    .container{
+        width: 900px;
+    }
+}
+@media(max-width:920){
+    .container{
+        width: 800px;
+    }
+}
+@media(max-width:820){
+    .container{
+        width: 700px;
+    }
+}
+@media(max-width:720){
+    .container{
+        width: 600px;
+    }
+}
+@media(max-width:620){
+    .container{
+        width: 500px;
+    }
+}
+@media(max-width:520){
+    .container{
+        width: 400px;
+    }
+}
+@media(max-width:420){
+    .container{
+        width: 300px;
+    }
+}
+@media(max-width:320){
+    .container{
+        width: 200px;
+    }
+}
